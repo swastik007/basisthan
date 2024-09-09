@@ -8,6 +8,8 @@ import CalltoAction from './components/CalltoAction.jsx'
 import FooterSection from './components/FooterSection.jsx'
 import VideoSection from './components/VideoSection.jsx'
 import AboutSection from './components/AboutSection.jsx'
+import PartnerSection from './components/PartnerSection.jsx'
+import FeatureSection from './components/FeatureSection.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,6 +18,8 @@ function App() {
     <Header />
     <VideoSection />
     <AboutSection />
+    <FeatureSection />
+    <PartnerSection />
     <HeroSection />
      <CalltoAction />
      <FooterSection />
