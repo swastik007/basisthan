@@ -1,16 +1,9 @@
 const AboutSection = () => {
     return(
-        <section className="py-16">
+        <section className="py-16 bg-orange-100/70">
   <div className="container mx-auto">
-    <div className="flex flex-wrap">
-      {/* Image Section */}
-      <div className="w-full md:w-5/12">
-        <img
-          src="http://via.placeholder.com/1000x1500"
-          alt=""
-          className="w-full h-auto"
-        />
-      </div>
+    <div className="flex flex-wrap items-center">
+      
       {/* Text Section */}
       <div className="w-full md:w-7/12 pl-8">
         <div className="w-full">
@@ -82,6 +75,12 @@ const AboutSection = () => {
             <span>Read more</span>
           </a>
         </div>
+      </div>
+      {/* Image Section */}
+      <div className="w-full md:w-5/12">
+       
+        <img className="w-full h-auto" src="/images/banner-2.png" alt="Basisthan" />
+                    
       </div>
     </div>
   </div>

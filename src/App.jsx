@@ -17,10 +17,11 @@ function App() {
     <>
     <Header />
     <VideoSection />
-    <AboutSection />
+    
     <FeatureSection />
+    <AboutSection />
     <PartnerSection />
-    <HeroSection />
+   
      <CalltoAction />
      <FooterSection />
     </>

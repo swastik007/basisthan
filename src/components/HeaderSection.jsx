@@ -14,7 +14,7 @@ const Header = () => {
           <div className="flex lg:flex-1">
             <a href="#" className="flex justify-center items-center">
               <img className="h-12 w-auto" src="/images/logo-bs.png" alt="Basisthan" />
-              <span className="font-bold text-lg">Basisthan</span>
+              <span className="font-bold text-2xl ml-2">Basisthan</span>
             </a>
           </div>
           <div className="lg:hidden">
